@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andrewgiang.d3.MainActivity">
+
+    <item
+        android:id="@+id/action_google_charts"
+        android:title="@string/action_google_charts"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_d3_box_plot"
+        android:title="@string/action_d3_box_plot"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
