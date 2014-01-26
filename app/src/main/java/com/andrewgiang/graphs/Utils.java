@@ -1,4 +1,4 @@
-package com.andrewgiang.d3;
+package com.andrewgiang.graphs;
 
 import android.annotation.TargetApi;
 import android.os.Build;
