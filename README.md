@@ -7,7 +7,7 @@ Google Charts
 --------------
 1. Bubble Chart
 2. Piechart Donut
-3. Geochar
+3. Geochart
 
 
 D3.js
