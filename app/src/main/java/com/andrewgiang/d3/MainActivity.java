@@ -14,7 +14,7 @@ public class MainActivity extends ActionBarActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new GoogleChartsFragment())
+                    .add(R.id.container, new GChartBubbleChartFragment())
                     .commit();
         }
     }
@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         if (id == R.id.action_google_charts) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new GoogleChartsFragment())
+                    .add(R.id.container, new GChartBubbleChartFragment())
                     .commit();
             return true;
         } else if (id == R.id.action_d3_box_plot) {

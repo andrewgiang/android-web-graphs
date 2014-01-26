@@ -10,11 +10,11 @@ import android.webkit.WebView;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class GoogleChartsFragment extends Fragment {
+public class GChartBubbleChartFragment extends Fragment {
 
     private WebView mWebView;
 
-    public GoogleChartsFragment() {
+    public GChartBubbleChartFragment() {
     }
 
     @Override
