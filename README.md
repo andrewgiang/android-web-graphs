@@ -9,6 +9,6 @@ Google Charts
 
 
 
-d3.js
+D3.js
 --------------
 1. Box Plot
