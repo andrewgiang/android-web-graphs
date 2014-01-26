@@ -5,7 +5,17 @@
 
     <item
         android:id="@+id/action_google_charts"
-        android:title="@string/action_google_charts"
+        android:title="@string/action_gc_bubble_chart"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gc_piechart_donut"
+        android:title="@string/action_gc_piechart_donut"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gc_geochart"
+        android:title="@string/action_gc_geochart"
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item

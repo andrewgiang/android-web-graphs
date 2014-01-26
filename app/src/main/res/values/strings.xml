@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">D3</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_google_charts">Google Charts</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="action_d3_box_plot">D3 Bullets</string>
+    <string name="app_name">Android Web Graphs</string>
+    <string name="action_gc_bubble_chart">GC Bubble Chart</string>
+    <string name="action_gc_piechart_donut">GC Piechart Donut</string>
+    <string name="action_gc_geochart">GC Geochart</string>
+    <string name="action_d3_box_plot">D3 Box Plot</string>
+
+    <string name="gc_geochart">file:///android_asset/gc_geochart.html</string>
+    <string name="gc_chart_bubble">file:///android_asset/gc_bubble.html</string>
+    <string name="gc_piechart_donut">file:///android_asset/gc_piechart_donut.html</string>
+    <string name="d3_box_plot">file:///android_asset/d3_box_plot.html</string>
 
 </resources>

@@ -14,7 +14,7 @@ public class MainActivity extends ActionBarActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new GChartBubbleChartFragment())
+                    .add(R.id.container, JavascriptGraphFragment.newInstance(getString(R.string.gc_chart_bubble)))
                     .commit();
         }
     }
@@ -34,15 +34,28 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_google_charts) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new GChartBubbleChartFragment())
-                    .commit();
-            return true;
-        } else if (id == R.id.action_d3_box_plot) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new D3BoxPlotFragment())
-                    .commit();
+
+        switch (id){
+            case R.id.action_google_charts:
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.container, JavascriptGraphFragment.newInstance(getString(R.string.gc_chart_bubble)))
+                        .commit();
+                return  true;
+            case R.id.action_d3_box_plot:
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.container, JavascriptGraphFragment.newInstance(getString(R.string.d3_box_plot)))
+                        .commit();
+                return true;
+            case R.id.action_gc_piechart_donut:
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.container, JavascriptGraphFragment.newInstance(getString(R.string.gc_piechart_donut)))
+                        .commit();
+                return true;
+            case R.id.action_gc_geochart:
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.container, JavascriptGraphFragment.newInstance(getString(R.string.gc_geochart)))
+                        .commit();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

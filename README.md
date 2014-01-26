@@ -6,7 +6,8 @@ A repository of example web graphs for android
 Google Charts
 --------------
 1. Bubble Chart
-
+2. Piechart Donut
+3. Geochar
 
 
 D3.js
